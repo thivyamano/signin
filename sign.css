@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: "Poppins", sans-serif;
+	font-weight: 550;
+	background-color: #f8f9fa;
+	transition: all 0.5s;
+}
+nav
+{
+	background-color:#f8f9fa ;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	z-index: 10;
+}
+img
+{
+	height: 45px;
+	width: 50px;
+	margin-top: 15px;
+	margin-left: 170px;
+
+	
+}
+nav ul
+{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	text-decoration: none;
+	
+}
+nav ul li .p1 
+{
+	position: relative;
+	left: 830px;
+	float: right;
+	line-height: 50px;
+	text-decoration: none;
+}
+nav ul li .p2 
+{
+	position: relative;
+	left: 830px;
+	height: 20px;
+	width: 80px;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding-left: 15px;
+	float: right;
+	line-height: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+
+nav ul li a 
+{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: 30px;
+
+
+	
+}
+.p1:hover
+{
+	color: black;
+}
+section 
+{
+	background-color: #f8f9fa;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+
+}
+section h1
+{
+	border: 1px solid;
+	position: relative;
+	left: 380px;
+	width: 50%;
+	top: 100px;
+	font-size: 52px;
+	text-align: center;
+}
+
+.forms{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form
+{
+	width: 360px;
+	margin-top: 150px;
+	height: 600px;
+	line-height: 30px;
+	font-weight: 700;
+	font-size: 16px;
+	
+}
+form .input
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.7);
+}
+form .input input
+{
+	height: 45px;
+	padding-left: 30px;
+	font-size: 17px;
+	border-radius: 5px;
+	border-color: rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.5);
+}
+form .input a 
+{
+	margin-left:80px ;
+	text-decoration: none;
+	color: #0070F4;
+
+}
+.remember 
+{ 
+	font-size: 16px;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.6);
+	
+
+}
+.remember input
+{
+	height: 16px;
+	width: 16px;
+	background-color: yellowgreen;
+
+}
+form button
+{
+	height: 45px;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: #0070f4;
+	color: white;
+	border-color: transparent;
+}
+.or 
+{
+	height: 40px;
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+	justify-content: space-evenly;
+
+
+
+}
+.title
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	column-gap: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.7);
+}
+.title::before
+{
+	content: "";
+	height: 1px;
+	width: 154px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: block;
+	
+
+}
+.title::after 
+{
+	content: "";
+	height: 1px;
+	width: 154px;
+	padding-right: 20px;
+	margin-right: 50px;
+	background-color: black;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+.git button
+{
+	height: 45px;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: #191919;
+	border-color: transparent;
+	color: white;
+	padding: 12px 0px;
+
+}
+.git button i 
+{
+	position: relative;
+	right: 70px;
+}
+.google button
+{
+	height: 45px;
+	width: 100%;
+	margin-top: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: #Dc2626;
+	border-color: transparent;
+	color: white;
+	padding: 12px 0px;
+
+}
+.google button i 
+{
+	position: relative;
+	right: 70px;
+}
+.d1
+{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.d1 p 
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.5);
+}
+.d1 a 
+{
+	text-decoration: none;
+	color: #0070F4;
+}
+
+/*@media screen and (max-width:912px)
+{
+	section h1
+	{
+		margin-left: -150px;
+	}
+	.forms
+	{
+		display: flex;
+		align-items: center;
+	}
+}*/
+
+/*@media screen and (max-width:767px)
+{
+	section h1
+	{
+		margin-left: -280px;
+		
+		width: 500px;
+	}
+}*/
+@media screen and (max-width:480px)
+{
+	section h1
+	{
+	    margin-top: 40px;
+	    margin-left: -350px;
+	    height: 200px;
+	    width: 400px;
+		font-weight: 800;
+		font-size: 40px;
+		
+
+	}
+
+	.forms
+	{
+		display: flex;
+		align-items: center;
+	}
+}
+
+
+
+
+
